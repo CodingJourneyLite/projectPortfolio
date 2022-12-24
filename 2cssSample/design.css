@@ -1,0 +1,128 @@
+@font-face {
+
+    font-family: "BurlingtonBoldItalic";
+    src: url("./Font/SF_Burlington_Script_Bold_Italic-webfont.woff") format('woff');
+
+}
+
+@font-face {
+
+    font-family: "BurlingtonBold";
+    src: url("./Font/SF_Burlington_Script_Bold-webfont.woff") format('woff');
+
+}
+
+@font-face {
+
+    font-family: "BurlingtonItalic";
+    src: url("./Font/SF_Burlington_Script_Italic-webfont.woff") format('woff');
+        
+}
+
+@font-face {
+
+    font-family: "Burlington";
+    src: url("./Font/SF_Burlington_Script-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: Alex;
+    src: url("Font/AlexBrush-Regular.ttf");
+}
+
+header {
+
+letter-spacing: 8px;
+font-family: "Alex";
+font-size: 30px;
+font-weight: lighter;
+
+}
+
+body {
+
+    margin: 0;
+}
+
+p { 
+
+    font-style: italic;
+}
+
+
+
+.figure1 {
+
+border-width: 5px;
+border-color: aquamarine;
+border-style: dashed outset;
+width: 33%;
+float: right;
+margin-right: 13%;
+
+}
+
+.figure2 {
+
+    border: 5px teal dashed;
+    width: 33%;
+    float: right;
+
+}
+
+figure {
+
+    padding: 10px;
+    text-align: center;
+}
+
+#signUp {
+
+    clear: both;
+}
+
+
+article > p.specialLetter::first-letter {
+
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    
+}
+
+a:link
+
+article > h3 {
+
+    text-decoration: underline;
+}
+
+a:any-link {
+
+    color:blue
+}
+
+a:hover {
+
+    font-style: italic;
+    color: red;
+}
+
+a:visited {
+
+    color: gray;
+}
+
+footer {
+
+    background-color: black;
+    width: 100%;
+    padding: 10px 0px;
+    color: white;
+   
+}
